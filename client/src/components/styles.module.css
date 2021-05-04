@@ -1,0 +1,53 @@
+.flexcol {
+    display: flex;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.summary{
+    display: flex;
+    margin: 10pt 0pt;
+    padding: 5pt 10pt;
+    justify-content: space-between;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5pt;
+    border-color: lightgrey;
+}
+
+.modalContent{
+    margin: 10pt 0pt;
+    padding: 5pt 10pt;
+    border: 1px;
+    border-style: solid;
+    border-radius: 5pt;
+    border-color: lightgrey;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;    
+    border-radius: 5pt;
+    margin: 10pt 0pt;
+    padding: 12pt;
+}
+
+.positive {
+    color: teal;
+    font-weight: 600;
+}
+
+.negative {
+    color: red;
+    font-weight: 600;
+}
+
+.bgpositive {
+    background-color: lightseagreen;
+}
+
+.bgnegative {
+    background-color: lightpink;
+}
